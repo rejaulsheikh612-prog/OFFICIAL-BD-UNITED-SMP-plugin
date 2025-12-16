@@ -1,0 +1,15 @@
+name: BDUnitedPlugin
+version: 1.0
+main: bdunited.plugin.BDUnitedPlugin
+api-version: '1.21'
+author: BD-UNITED
+description: BD United SMP official complain & rule plugin
+
+commands:
+  complain:
+    description: Submit a complaint
+    usage: /complain <player> <reason>
+
+permissions:
+  bdunited.use:
+    default: true
